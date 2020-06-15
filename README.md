@@ -7,10 +7,12 @@ For the plot displaying total fares by city type, the Pyber data frame accountin
 As the data was finalized, the stark contrast between city types in terms of fare, drivers and demand becomes apparent. In the summary data frame the amount of total rides for urban cities is about 13 times larger than rural cities. The amount of total drivers in urban cities is also 5 times higher than the suburban total drivers. The average fare per ride and average fare per driver trends determine the urban city has the lowest fare per ride in comparison to the other city types. When looking at the amount of drivers in the urban cities it is clear to see that because the amount of drivers in the urban cities is so high, the average fare per ride and average fare per driver are significantly cheaper than rural areas where drivers are more scarce and distances longer. This would ultimately mean that average fare per ride and fare per driver to be higher than more densely populated communities. 
 
 ![](https://github.com/bbar12/Py-Ber_Analysis/blob/master/analysis/SummaryDataFrame.PNG)
+Fig 1. Summary Data Frame
 
 As a preliminary analysis, this works well with the line graph as it more visually explains the finding. Something that the line graph determines more accurately is the decrease and increase of Pyber uses throughout the different city types throughout the months of January to April of 2019. This could more easily tell us the months affected by high demand and low driver demands. 
 
 ![](https://github.com/bbar12/Py-Ber_Analysis/blob/master/analysis/TotalFaresbyCityType.png)
+Fig 2. Total Fares by City Type
 
 Some of the challenges encountered were in making the date time index be recognized instead of as an index values so that the resample function could be performed. Performing a pivot table using Python as opposed to Excel was also less interactive and more like raw data handling. Overcoming the challenges meant visualizing at which data frames converting the index with the date/time to a datetime index to be able to perform the resample function successfully. Another challenge was to determine the syntax being used within my code and finding new syntax functions to implement not only for results, but clear enough for me to understand and retrofit into my analysis. This required a lot of preliminary visualization and heavy use of the  "print" function in jupyter notebook to visualize results as code was being retrofitted for obtaining specific results. 
 
