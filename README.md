@@ -10,6 +10,8 @@ As the data was finalized, the stark contrast between city types in terms of far
 
 As a preliminary analysis, this works well with the line graph as it more visually explains the finding. Something that the line graph determines more accurately is the decrease and increase of Pyber uses throughout the different city types throughout the months of January to April of 2019. This could more easily tell us the months affected by high demand and low driver demands. 
 
+![](https://github.com/bbar12/Py-Ber_Analysis/blob/master/analysis/TotalFaresbyCityType.png)
+
 Some of the challenges encountered were in making the date time index be recognized instead of as an index values so that the resample function could be performed. Performing a pivot table using Python as opposed to Excel was also less interactive and more like raw data handling. Overcoming the challenges meant visualizing at which data frames converting the index with the date/time to a datetime index to be able to perform the resample function successfully. Another challenge was to determine the syntax being used within my code and finding new syntax functions to implement not only for results, but clear enough for me to understand and retrofit into my analysis. This required a lot of preliminary visualization and heavy use of the  "print" function in jupyter notebook to visualize results as code was being retrofitted for obtaining specific results. 
 
 Some recommendations I would give the CEO for addressing disparities among the city types is to determine the demand of rides that might be in demand for specific seasons and would recommend analysis into other months of the year, as this analysis only covers through April of 2019. 
